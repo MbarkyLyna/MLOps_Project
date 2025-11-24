@@ -1,0 +1,24 @@
+
+# Virtual environment
+venv/
+mlops_env/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model & big files
+model.pkl
+submission.csv
+
+# OS junk
+.DS_Store
+Thumbs.db
+

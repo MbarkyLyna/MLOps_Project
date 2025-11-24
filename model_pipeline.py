@@ -38,11 +38,7 @@ def train_model(X_train, y_train, n_estimators=200):
     """
     Train a Random Forest model and return it.
     """
-    rf = RandomForestClassifier(
-        n_estimators=n_estimators,
-        random_state=42,
-        n_jobs=-1
-    )
+    rf = RandomForestClassifier(n_estimators=n_estimators, random_state=42, n_jobs=-1)
     rf.fit(X_train, y_train)
     return rf
 
@@ -65,4 +61,3 @@ def save_model(model, filename):
 def load_model(filename):
     """Load model using joblib"""
     return joblib.load(filename)
-

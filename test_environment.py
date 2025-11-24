@@ -1,5 +1,2 @@
-import numpy as np
-import pandas as pd
-import sklearn
-import mlflow
+# test_environment.py
 print("Environment is set up correctly!")

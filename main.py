@@ -20,8 +20,12 @@ def main():
     parser.add_argument("--run_all", action="store_true", help="Run all steps")
 
     parser.add_argument("--data", type=str, default="train.csv", help="Path to dataset")
-    parser.add_argument("--model_out", type=str, default="model.pkl", help="Model output file")
-    parser.add_argument("--model_in", type=str, default="model.pkl", help="Load model file")
+    parser.add_argument(
+        "--model_out", type=str, default="model.pkl", help="Model output file"
+    )
+    parser.add_argument(
+        "--model_in", type=str, default="model.pkl", help="Load model file"
+    )
 
     args = parser.parse_args()
 
@@ -69,4 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
