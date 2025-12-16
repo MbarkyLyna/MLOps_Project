@@ -1,11 +1,2 @@
-flake8
-pylint
-numpy
-pandas
+flask
 scikit-learn
-matplotlib
-jupyter
-mlflow
-fastapi
-uvicorn
-joblib

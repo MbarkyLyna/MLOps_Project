@@ -1,0 +1,5 @@
+flask
+numpy
+scikit-learn
+joblib
+mlflow==2.16.0
